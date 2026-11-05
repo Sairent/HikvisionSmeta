@@ -40,7 +40,7 @@ jobs:
             "build-tools;35.0.0"
 
       - name: Extract project
-        run: unzip -q Hikvision_APK_Project.zip -d source
+        run: unzip -q HikvisionSmeta_Updated_Project.zip -d source
 
       - name: Build APK
         working-directory: source/HikvisionSmeta
